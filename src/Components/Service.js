@@ -1,9 +1,12 @@
 import service_pic from "../assets/img/services.png";
 import Business from "../assets/img/Business.svg";
 import Marketing from "../assets/img/Team.svg";
+import { useTranslation } from "react-i18next";
 
 
-const Service = (propos) => {
+const Service = (props) => {
+    const { t } = useTranslation();
+
     return (
 
         <section id="services" className="services">

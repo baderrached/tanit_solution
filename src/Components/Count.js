@@ -1,5 +1,8 @@
+import { useTranslation } from "react-i18next";
 
-const Count = (propos) => {
+const Count = (props) => {
+    const { t } = useTranslation();
+
     return(
         <section id="counts" className="counts section-bg">
         <div className="container">

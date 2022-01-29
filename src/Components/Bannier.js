@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 
 import bannier_pic from "../assets/img/hero-img.png";
-const Bannier = (props) => {
+const Bannier =  (props) => {
     const { t } = useTranslation();
+  
     return (
         <section id="hero" className="d-flex align-items-center">
 

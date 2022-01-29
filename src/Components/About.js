@@ -1,4 +1,7 @@
-const About = (props) => {
+import { useTranslation } from "react-i18next";
+
+const About =  (props) => {
+    const { t } = useTranslation();
     return (
         <section id="about" className="about">
             <div className="container">

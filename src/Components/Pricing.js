@@ -1,4 +1,7 @@
-const Pricing = (props) => {
+import { useTranslation } from "react-i18next";
+
+const Pricing =  (props) => {
+    const { t } = useTranslation();
 
     return (
 
@@ -7,7 +10,7 @@ const Pricing = (props) => {
        <div className="container">
 
          <div className="section-title">
-           <h2>Pricing</h2>
+           <h2>{t('Pricing')}</h2>
            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
          </div>
 

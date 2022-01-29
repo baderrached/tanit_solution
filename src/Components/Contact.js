@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Contact =(propos) => {
+    const { t } = useTranslation();
+
     return (
         <section id="contact" className="contact section-bg">
         <div className="container">

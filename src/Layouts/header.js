@@ -17,6 +17,11 @@ const languages = [
         name: 'English',
         country_code: 'gb',
     },
+    {
+        code: 'pt-br',
+        name: 'portugais',
+        country_code: 'br',
+    },
 
 ]
 
@@ -34,10 +39,11 @@ const GlobeIcon = ({ width = 24, height = 24 }) => (
     </svg>
 )
 
-const Header = (props) => {
+const Header =  (props) => {
+    const { t } = useTranslation();
     const currentLanguageCode = cookies.get('i18next') || 'en'
     const currentLanguage = languages.find((l) => l.code === currentLanguageCode)
-    const { t } = useTranslation();
+  
     return (
         /* <!-- ======= Header ======= --> */
         < header id="header" className="fixed-top " >
@@ -73,7 +79,7 @@ const Header = (props) => {
                                         {languages.map(({ code, name, country_code }) => (
                                             <li key={country_code}>
                                                 <a
-                                                    href="#"
+                                                   
                                                     className={classNames('dropdown-item', {
                                                         disabled: currentLanguageCode === code,
                                                     })}

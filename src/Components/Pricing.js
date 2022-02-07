@@ -16,7 +16,7 @@ const Pricing =  (props) => {
 
          <div className="row no-gutters">
 
-           <div className="col-lg-4 box">
+           <div className="col-lg-3 px-2 box">
              <h3>Free</h3>
              <h4>$0<span>per month</span></h4>
              <ul>
@@ -29,7 +29,7 @@ const Pricing =  (props) => {
              <a href="#" className="btn-buy">Get Started</a>
            </div>
 
-           <div className="col-lg-4 box featured">
+           <div className="col-lg-3 px-2 box featured">
              <h3>Business</h3>
              <h4>$29<span>per month</span></h4>
              <ul>
@@ -42,7 +42,20 @@ const Pricing =  (props) => {
              <a href="#" className="btn-buy">Get Started</a>
            </div>
 
-           <div className="col-lg-4 box">
+           <div className="col-lg-3 px-2 box">
+             <h3>Developer</h3>
+             <h4>$49<span>per month</span></h4>
+             <ul>
+               <li><i className="bx bx-check"></i> Quam adipiscing vitae proin</li>
+               <li><i className="bx bx-check"></i> Nec feugiat nisl pretium</li>
+               <li><i className="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+               <li><i className="bx bx-check"></i> Pharetra massa massa ultricies</li>
+               <li><i className="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+             </ul>
+             <a href="#" className="btn-buy">Get Started</a>
+           </div>
+
+           <div className="col-lg-3 px-2 box">
              <h3>Developer</h3>
              <h4>$49<span>per month</span></h4>
              <ul>

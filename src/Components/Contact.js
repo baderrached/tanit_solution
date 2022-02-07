@@ -8,8 +8,7 @@ const Contact =(propos) => {
         <div className="container">
 
             <div className="section-title">
-                <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>{t('Contact_title')}</h2>
             </div>
 
             <div className="row">
@@ -20,22 +19,22 @@ const Contact =(propos) => {
                         <div className="col-md-12">
                             <div className="info-box">
                                 <i className="bx bx-map"></i>
-                                <h3>Our Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h3>{t('our_adress')}</h3>
+                                <p>R. Luiz Claudio Pascolini, Uberaba, Brazil</p>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="info-box mt-4">
                                 <i className="bx bx-envelope"></i>
-                                <h3>Email Us</h3>
-                                <p>info@example.com<br />contact@example.com</p>
+                                <h3>{t('email_us')}</h3>
+                                <p>hello@tanitsolution.com</p>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="info-box mt-4">
                                 <i className="bx bx-phone-call"></i>
-                                <h3>Call Us</h3>
-                                <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                                <h3>Whatsapp</h3>
+                                <p>+55 34997653456</p>
                             </div>
                         </div>
                     </div>
@@ -61,9 +60,9 @@ const Contact =(propos) => {
                         <div className="my-3">
                             <div className="loading">Loading</div>
                             <div className="error-message"></div>
-                            <div className="sent-message">Your message has been sent. Thank you!</div>
+                            <div className="sent-message">{t('message_sent')}</div>
                         </div>
-                        <div className="text-center"><button type="submit">Send Message</button></div>
+                        <div className="text-center"><button type="submit">{t('send_message')}</button></div>
                     </form>
                 </div>
 

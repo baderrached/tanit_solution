@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Why_us = (propos) => {
+    const { t } = useTranslation();
+    
     return(
         <section id="why-us" className="why-us">
         <div className="container">
@@ -7,25 +11,22 @@ const Why_us = (propos) => {
 
                 <div className="col-lg-4">
                     <div className="box">
-                        <span>01</span>
-                        <h4>Lorem Ipsum</h4>
-                        <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                        <h4>{t('free_intro')}</h4>
+                        <p>{t('free_intro_desc')}</p>
                     </div>
                 </div>
 
                 <div className="col-lg-4 mt-4 mt-lg-0">
                     <div className="box">
-                        <span>02</span>
-                        <h4>Repellat Nihil</h4>
-                        <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                        <h4>{t('affordable')}</h4>
+                        <p>{t('affordable_desc')}</p>
                     </div>
                 </div>
 
                 <div className="col-lg-4 mt-4 mt-lg-0">
                     <div className="box">
-                        <span>03</span>
-                        <h4> Ad ad velit qui</h4>
-                        <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                        <h4>{t('accessible')}</h4>
+                        <p>{t('accessible_desc')}</p>
                     </div>
                 </div>
 

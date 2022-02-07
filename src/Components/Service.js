@@ -13,8 +13,8 @@ const Service = (props) => {
             <div className="container">
 
                 <div className="section-title">
-                    <h2>Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>{t('services_title')}</h2>
+                    <p>{t('services_desc')}</p>
                 </div>
 
                 <div className="row">
@@ -32,8 +32,8 @@ const Service = (props) => {
                                             </svg>
                                             <i className="bx bxl-dribbble"></i>
                                         </div>
-                                        <h4><a href="">Business Consulting</a></h4>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <h4><a href="">{t('business_consulting')}</a></h4>
+                                        <p>{t('business_consulting_desc')}</p>
                                     </div>
                                 </div>
 
@@ -43,8 +43,8 @@ const Service = (props) => {
                                           <img src={Marketing} />
                                           
                                         </div>
-                                        <h4><a href="">Marketing Management</a></h4>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                        <h4><a href="">{t('marketing_manag')}</a></h4>
+                                        <p>{t('marketing_manag_desc')}</p>
                                     </div>
                                 </div>
 
@@ -54,8 +54,8 @@ const Service = (props) => {
                                        <img src={Business} />
                                             <i className="bx bx-tachometer"></i>
                                         </div>
-                                        <h4><a href="">UX / Technical Design</a></h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                        <h4><a href="">{t('ux_technical')}</a></h4>
+                                        <p>{t('ux_technical_desc')}</p>
                                     </div>
                                 </div>
 
@@ -67,9 +67,8 @@ const Service = (props) => {
                                             </svg>
                                             <i className="bx bx-layer"></i>
                                         </div>
-                                        <h4><a href="">Web Development</a></h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                                    </div>
+                                        <h4><a href="">{t('web_dev')}</a></h4>
+                                        <p>{t('web_dev_desc')}</p> </div>
                                 </div>
                             </div>
                         </div>

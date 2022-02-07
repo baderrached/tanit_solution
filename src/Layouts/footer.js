@@ -14,34 +14,12 @@ const Footer =  (props) => {
 
               <div className="col-lg-3 col-md-6 footer-contact">
                 <h3>TANIT SOLUTION</h3>
-                <p>
-                  xxxxxxxxxx <br />
-                  xxxxxxx, Nxxxx<br />
-                 xxxxx <br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> contact@tanitsolutions.com<br />
-                </p>
+                  <strong>Phone:</strong> +55 34 99765 3456 <br />
+                  <strong>Email:</strong> hello@tanitsolutions.com<br />
               </div>
-
-             
-
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                </ul>
-              </div>
-
-              <div className="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Join Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            
-            
-
+              <div className="col-lg-6  col-md-6 footer-contact">
+              <br /><br /><br />
+                © All rights reserved to TANIT SOLUTION / 2021-2022
               </div>
             </div>
           </div>

@@ -22,8 +22,8 @@ const Home = (props) => {
                 <Why_us />
                 <Count />
                 <Service />
-                <Team />
-                <Pricing />
+                {/* <Team /> */}
+                {/* <Pricing /> */}
                 <Contact />
             </main>
             <Footer />

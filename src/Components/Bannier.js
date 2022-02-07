@@ -11,20 +11,13 @@ const Bannier =  (props) => {
                 <div className="row">
                     <div className="col-lg-6 pt-2 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <h1>{t('Bannier_title')}</h1>
-                        <ul>
-                            <li>
                                 <i className="ri-check-line"></i>
-                                We are navigators in the age of digital transformation.
-                            </li>
-                            <li>
+                                {t('bannier_desc1')}
                                 <i className="ri-check-line"></i>
-                                We are a digital transformation consultancy that operates at the intersection of People, Data and Technology.
-                            </li>
-                         
-                        </ul>
+                                {t('bannier_desc2')}
                         <div className="mt-3">
-                            <a href="#about" className="btn-get-started scrollto">Get Started</a>
-                            <a href="" className="btn-get-quote">Request a Quote</a>
+                            <a href="#about" className="btn-get-started scrollto">{t('get_started')}</a>
+                            <a href="" className="btn-get-quote">{t('get_quote')}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2 hero-img">

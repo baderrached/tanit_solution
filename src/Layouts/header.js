@@ -8,11 +8,6 @@ import { Navbar, Nav, Container, NavDropdown , NavItem } from 'react-bootstrap';
 
 const languages = [
     {
-        code: 'fr',
-        name: 'Français',
-        country_code: 'fr',
-    },
-    {
         code: 'en',
         name: 'English',
         country_code: 'gb',
@@ -54,11 +49,10 @@ const Header =  (props) => {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li><a className="nav-link scrollto active" href="#hero">{t('Nav_home')}</a></li>
-                        <li><a className="nav-link scrollto" href="#about">About</a></li>
-                        <li><a className="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a className="nav-link scrollto" href="#team">Team</a></li>
-                        <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+                        <li><a className="nav-link scrollto active" href="#hero">{t('nav_home')}</a></li>
+                        <li><a className="nav-link scrollto" href="#about">{t('nav_about')}</a></li>
+                        <li><a className="nav-link scrollto" href="#services">{t('nav_services')}</a></li>
+                        <li><a className="nav-link scrollto" href="#contact">{t('nav_contact')}</a></li>
 
                         <div className="language-select">
                             <div className="d-flex justify-content-end align-items-center language-select-root">

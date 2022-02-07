@@ -13,7 +13,7 @@ const languages = [
         country_code: 'gb',
     },
     {
-        code: 'pt-br',
+        code: 'pt',
         name: 'portugais',
         country_code: 'br',
     },
